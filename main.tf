@@ -24,3 +24,22 @@ resource "google_compute_instance" "vault" {
     }
   }
 }
+
+resource "google_compute_instance" "vault2" {
+  name         = "vault2"
+  machine_type = "f1-micro"
+  zone         = "us-east1-c"
+
+  boot_disk {
+    initialize_params {
+      image = "fedora-coreos-cloud/fedora-coreos-stable"
+    }
+  }
+
+  network_interface {
+    network = "default"
+    access_config {
+
+    }
+  }
+}
