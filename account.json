@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "a2020-cr460",
+  "private_key_id": "66834bc85a52d51294c3c3dbe8c196864ead4190",
+  "private_key": "-----BEGIN PRIVATE KEY----- BEL ESSAI QUAND MEME"
+"client_email": "a2020-cr460-terraform-local@a2020-cr460.iam.gserviceaccount.com",
+"client_id": "108895673830926210956",
+"auth_uri": "https://accounts.google.com/o/oauth2/auth",
+"token_uri": "https://oauth2.googleapis.com/token",
+"auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+"client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/a2020-cr460-terraform-local%40a2020-cr460.iam.gserviceaccount.com"
+}
