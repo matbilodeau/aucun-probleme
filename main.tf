@@ -43,3 +43,8 @@ resource "google_compute_instance" "vault2" {
     }
   }
 }
+
+resource "google_compute_network" "cr460demo" {
+  name                    = "cr460demo"
+  auto_create_subnetworks = "true"
+}
