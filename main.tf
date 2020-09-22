@@ -18,7 +18,7 @@ resource "google_compute_instance" "vault" {
   }
 
   network_interface {
-    network = "default"
+    network = "default1"
     access_config {
 
     }
